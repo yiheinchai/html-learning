@@ -1,0 +1,88 @@
+    .heading {
+        color:rgb(91, 42, 138);
+        font-size: 50px;
+        font-family: Tahoma, Helvetica, sans-serif;
+        width: 1000px;
+        margin: 0px 0px 10px 0px;
+        text-align: center;
+    }
+    .sub-heading {
+        color:rgb(49, 9, 87);
+        font-size: 50%;
+        font-style: normal;
+        font-weight: 900;
+        text-transform: lowercase;
+        width: 500px;
+        text-align: center;
+    }
+    div li {
+        color: white;
+        list-style: none;
+    }
+    a:link, a:visited {
+        /* 
+        a:link - applies the styles to the link element
+        a:visited - applies the styles to a link that has been clicked before
+         */
+        color: white;
+        font-size: 2em;
+        text-decoration: none;
+        background-color: rgb(150, 142, 199);
+        border-color: rgb(38, 38, 41);
+        display: block;
+        width: 200px;
+        height: 50px;
+        line-height: 50px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    a:hover, a:active {
+     /* 
+         a:hover - applies the styles to an element with mouse hovering over it
+         a:active - applies the styles to an element with the mouse click down but not released
+          */
+          color: rgb(150, 142, 199);
+          background-color: white;
+          border-color: slateblue;
+          border: 2px dotted slateblue;
+        }
+
+    * {
+        box-sizing: content-box;
+    }
+
+    #bg {
+        width: 500px;
+        height: 500px;
+        background: url("https://i.ibb.co/8XMwr6G/Frame-2.jpg") no-repeat right center blue;
+
+        /*
+        background-image: url("https://www.kaspersky.com/content/en-global/images/product-icon-KSOS.png");
+        background-color: beige;
+        background-repeat: no-repeat;
+        background-position: top right;
+        */
+    }
+
+    #box {
+        background-color: rgb(7, 161, 110);
+        padding: 10px 10px 10px 10px;
+        border: 3px solid black;
+        margin: 5px 0px 0px 0px;
+        /* vertical margin collapses */
+        width: 300px;
+        height: 200px;
+        overflow: auto;
+        /* allows you to scroll overflowing content */
+        box-sizing: border-box;
+    }
+
+    #content {
+        background-color: aquamarine;
+    }
+
+    body {
+        margin: 0px;
+        padding: 0px;
+    }
+        
