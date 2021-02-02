@@ -1,5 +1,5 @@
 body {
-    font-size: 5em;
+    font-size: 2em;
     color: black;
     font-weight: 900;
     font-family: 'Montserrat', sans-serif;
@@ -7,14 +7,15 @@ body {
 }
 
 #header-nav {
-    background-color: rgb(255, 208, 208);
+    background-color: rgb(228, 255, 233);
     border-radius: 0px;    
+    border:0;
 }
 
 #logo-img {
-    background-image: url('https://static-s.aa-cdn.net/img/ios/1252129586/dcf3847d97c1f96225df3d7bb11bf679?v=1');
-    border: 2px solid black;
+    background-image: url('../images/logo.png');
     width: 150px;
     height:150px;
     margin: 10px 15px 10px 0;
+    border-radius: 15px;
 }
