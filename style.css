@@ -15,14 +15,21 @@
         width: 500px;
         text-align: center;
     }
-    div li {
-        color: white;
-        list-style: none;
+    div ul {
+        position: relative;
+        top: 10px;
     }
 
     div {
         clear: both
     }
+
+    #first_link {
+        position:relative;
+        left: 500px;
+        top: 200px;
+    }
+
     a:link, a:visited {
         /* 
         a:link - applies the styles to the link element
@@ -79,6 +86,12 @@
         overflow: auto;
         /* allows you to scroll overflowing content */
         box-sizing: border-box;
+    }
+
+    @media (min-width:1200px) {
+        #box {
+            width: 80%;
+        }
     }
 
     #content {
